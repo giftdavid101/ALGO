@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+
+--black: #333333;
+  --off-white: #f4f4f4;
+  --grey: #666666;
+  --light-grey: #999999;
+  --lighter-grey: #e5e5e5;
+  --lighter-blue: rgba(78, 202, 218, 0.47);
+  --green: #19b729;
+--large: 1.2rem;
+--rad-default: 10px;
+  --rad-5: 5px;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --fs-small: 1rem;
+    --fs-medium: 1.2rem;
+    --fs-large: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --fs-small: 0.8rem;
+    --fs-medium: 0.8rem;
+    --fs-large: 1rem;
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*outline: 1px solid;*/
+}
+.App{
+  width: 100%;
+}
+.container {
+  width: 100%;
+  margin: 0 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+}
